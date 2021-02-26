@@ -36,7 +36,7 @@ if exists('g:lightline')
   let s:p.inactive.middle = [ [ s:bg4, s:bg1 ] ]
   let s:p.insert.left = [ [ s:bg0, s:blue, 'bold' ], [ s:fg1, s:bg2 ] ]
   let s:p.insert.right = [ [ s:bg0, s:blue ], [ s:fg1, s:bg2 ] ]
-  let s:p.insert.middle = [ [ s:fg1, s:bg2 ] ]
+  let s:p.insert.middle = [ [ s:fg1, s:bg1 ] ]
   let s:p.terminal.left = [ [ s:bg0, s:green, 'bold' ], [ s:fg1, s:bg2 ] ]
   let s:p.terminal.right = [ [ s:bg0, s:green ], [ s:fg1, s:bg2 ] ]
   let s:p.terminal.middle = [ [ s:fg1, s:bg2 ] ]
